@@ -28,7 +28,7 @@ public class NaurkiLoginPage {
 	}
 	public void loginToNaukri() {
 		username.sendKeys("javacampus.selenium@gmail.com");
-		password.sendKeys("Test@123");
+		password.sendKeys("Testing@123");
 		submit.click();
 	}
 

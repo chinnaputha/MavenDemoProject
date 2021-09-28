@@ -3,9 +3,16 @@
 <suite name="Naukri">
 	<parameter name="appURL" value="https://www.naukri.com/" />
 	<parameter name="browser" value="chrome" />
-	<test name="Test">
+	<!--  <test name="POMwithFindbyPageFactory">
 		<classes>
 			<class name="com.training.test.NaukriTest" />
 		</classes>
-	</test> <!-- ProfileUpdate -->
+	</test> -->
+	
+	<test name="POMWithNormalApproch">
+		<classes>
+			<class name="com.training.test.NaukriNormalTest" />
+		</classes>
+	</test>
+	<!-- ProfileUpdate -->
 </suite> <!-- Naukri -->
